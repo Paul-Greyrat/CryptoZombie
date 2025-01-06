@@ -12,7 +12,7 @@ contract ZombieFactory {
         string name;
         uint dna;
     }
-
+ 
     Zombie[] public zombies;
 
     mapping (uint => address) public zombieToOwner;
