@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.5.0;
 
-contract ZombieFactory {
+contract ZombieFactory { 
 
     event NewZombie(uint zombieId, string name, uint dna);
 
